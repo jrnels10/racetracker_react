@@ -1,0 +1,58 @@
+.event_user {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #727955;
+  margin: 1px 0px;
+  background-color: #f5f6f2;
+  color: #080906;
+  padding: 4px;
+  -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.event_user_position {
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.event_user_position h4 {
+  position: inherit;
+}
+
+.event_user_position h4 label {
+  font-size: 0.6rem;
+}
+
+.event_user_profilePic {
+  border-radius: 50%;
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.event_user_details {
+  width: calc(80% - 42px);
+  height: 40px;
+  float: right;
+  position: relative;
+  padding-left: 5px;
+}
+
+.event_user_details_fullName {
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+.event_user_details_fullName label {
+  float: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=Cards.css.map */

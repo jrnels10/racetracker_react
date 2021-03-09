@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,UAAU;EACvB,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,gBAAgB,ECPA,OAAO;CDQxB",
+    "sources": [
+        "App.scss",
+        "CssDefatuls.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

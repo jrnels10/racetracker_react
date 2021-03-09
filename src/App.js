@@ -1,10 +1,13 @@
 import React from 'react';
 import Leafletmain from './leaflet/LeafletMain';
-
+import MainEvent, { MainEventContainer } from './Pages/MainEvent';
+import './App.css'
 function App() {
   return (
-    <div className="App" style={{ height: '100vh', width: '100vw' }}>
-      <Leafletmain />
+    <div className="App">
+      {/* <Leafletmain /> */}
+      {/* <MainEvent /> */}
+      <MainEventContainer />
     </div>
   );
 }

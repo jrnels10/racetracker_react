@@ -1,0 +1,31 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.main_map {
+  position: relative;
+  height: 100%;
+  border: 1px solid #727955;
+}
+
+.sidebar {
+  position: absolute;
+  z-index: 1000;
+  right: 0px;
+  top: 0px;
+  width: 225px;
+}
+
+.leaderBoard_title {
+  background-color: #c5bfa3;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #727955;
+  padding: 5px;
+  margin: 10px 0px;
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+}
+/*# sourceMappingURL=MainEvent.css.map */

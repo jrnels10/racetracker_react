@@ -1,0 +1,55 @@
+@import "./../CssDefatuls.scss";
+
+.event_user {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid $GoldFusion;
+  margin: 1px 0px;
+  background-color: $GoldFusionLight;
+  color: $GoldFusionDark;
+  padding: 4px;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+  &_position {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+    h4 {
+      position: inherit;
+      label {
+        font-size: 0.6rem;
+      }
+    }
+  }
+  &_profilePic {
+    border-radius: 50%;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  &_details {
+    width: calc(80% - 42px);
+    height: 40px;
+    float: right;
+    position: relative;
+    padding-left: 5px;
+    &_fullName {
+      height: 100%;
+      width: 100%;
+      float: left;
+      label {
+        float: left;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
